@@ -16,7 +16,7 @@ if not os.path.isdir("BuySell/"):
 	print("Created BuySell Directory ...")
 
 
-quandl.ApiConfig.api_key = "Ufux_HxUXZKAgFjxWhGi"		# API key
+quandl.ApiConfig.api_key = "..."		# Your Quandl API key
 start_date="2018-10-01"		# Start Date
 end_date=datetime.datetime.today().strftime('%Y-%m-%d')		# End Date
 
